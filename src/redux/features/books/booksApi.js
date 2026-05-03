@@ -3,8 +3,8 @@ import getBaseUrl from '../../../utils/baseURL'
 
 
 const baseQuery = fetchBaseQuery({
-    baseUrl: `http://localhost:5000/api/books`,
-    // baseUrl: `${getBaseUrl()}/api/books`,
+    // baseUrl: `http://localhost:5000/api/books`,
+    baseUrl: `${getBaseUrl()}/api/books`,
     credentials: 'include',
     prepareHeaders: (Headers) => {
         const token = localStorage.getItem('token')

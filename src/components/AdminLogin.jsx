@@ -17,7 +17,7 @@ const AdminLogin = () => {
         console.log(data)
         try {
             // const response = await axios.post('${getBaseUrl()}/api/auth/admin`)
-            const response = await axios.post('http://localhost:5000/api/auth/admin', data, {
+            const response = await axios.post(`${getBaseUrl()}/api/auth/admin`, data, {
                 headers: {
                     'Content-Type': 'application/json'
                 }
