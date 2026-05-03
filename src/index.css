@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --swiper-navigation-size: 60px;
+    /* Adjust this value */
+}
